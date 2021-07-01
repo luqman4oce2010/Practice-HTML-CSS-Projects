@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+.iconbar-hor{
+    background-color: #3c3c3c;
+    overflow: hidden;
+}
+.iconbar-hor a{
+    color: #ddd;
+    float: left;
+    font-size: 40px;
+    padding: 20px 25px;
+    line-height: 25px;
+}
+
+.iconbar-hor a:hover{
+    background-color: #5e5e5e;
+    color: white;
+}
+
+.iconbar-hor a.activeHor{
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+/* Verical Iconbar code */
+
+.iconbar-Ver{
+    background-color: #6e6c6c;
+    overflow: hidden;
+    float: left;
+}
+.iconbar-Ver a{
+    color: #ddd;
+    font-size: 40px;
+    padding: 20px 25px;
+    line-height: 25px;
+    display: block;
+}
+
+.iconbar-Ver a:hover{
+    background-color: #5e5e5e;
+    color: white;
+}
+
+.iconbar-Ver a.activeVer{
+    background-color: teal;
+    color: white;
+}
