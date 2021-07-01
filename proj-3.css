@@ -11,7 +11,7 @@
     text-decoration: none;
     color: darkslategrey;
     padding: 18px 25px;
-   float: left;
+    float: left;
 }
 
 .container a:hover{
@@ -26,17 +26,20 @@
 
 .container .search-bar{
     float: right;
-    margin: 12px 8px;
 }
 
-input[type=text]{
+.container input[type=text]{
     border: none;
     padding: 5px;
     font-size: 0.9em;
+    margin-top: 8px;
 }
 
 button{
+    float: right;
     margin-right: 8px;
+    margin-top: 8px;
+    padding: 3px;
     cursor: pointer;
     background-color: lightgray;
     color: white;
