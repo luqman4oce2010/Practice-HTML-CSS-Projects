@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.container a{
+    text-decoration: none;
+    color: darkslategrey;
+    padding: 18px 25px;
+   float: left;
+}
+
+.container a:hover{
+    background-color: darkslategrey;
+    color: white;
+}
+
+.container a.active{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.container .search-bar{
+    float: right;
+    margin: 12px 8px;
+}
+
+input[type=text]{
+    border: none;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+button{
+    margin-right: 8px;
+    cursor: pointer;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: darkslategray;
+    color: white;
+}
+
+@media screen and ( max-width:500px ) { 
+    .container .search-bar{
+        float: none;
+    }
+
+    .container a , .container .search-bar input[type=text], .container .search-bar button{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0%;
+        text-align: left;
+        padding: 14px;
+    }
+    .container input[type=text]{
+        border: 1px solid #ccc;
+    }
+}
